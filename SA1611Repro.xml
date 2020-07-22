@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SA1611Repro</name>
+    </assembly>
+    <members>
+        <member name="T:SA1611Repro.Program">
+            <summary>
+                SA1611 Issue Reproduction.
+            </summary>
+        </member>
+        <member name="M:SA1611Repro.Program.GetContentAsync(System.Uri,System.Threading.CancellationToken)">
+            <summary>
+                Gets the content of the specified uri as a stream asynchronously.
+            </summary>
+            <param name="uri">the request URI.</param>
+            <returns>
+                A <see cref="T:System.Threading.Tasks.Task`1" /> representing the result of the asynchronous operation.
+            </returns>
+            <param name="cancellationToken">
+      a cancellation token used to propagate notification that the asynchronous operation
+      should be canceled.
+    </param><exception cref="T:System.OperationCanceledException">
+      thrown if the cancellation token has had cancellation requested
+    </exception>
+        </member>
+    </members>
+</doc>
